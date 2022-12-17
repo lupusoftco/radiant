@@ -1,0 +1,276 @@
+*,*:before,*:after {padding:0px;margin:0px;box-sizing:border-box;}
+html, body {font-family: arial,sans-serif;text-align: center;padding:5px;background:url(../images/bg_islem.png) center center;}
+.urun {padding:10px;}
+.urun-item {width:24%;display:inline-block;vertical-align: middle;}
+.urun .ym {width:11% !important;font-size:12px;}
+.urun > img {width:100px;}
+.urun-resim-click {cursor: pointer;}
+.gecmis-konusmalar, .guncel-konusma {vertical-align: top;display:inline-block;}
+.gecmis-konusmalar {width:29%;}
+.guncel-konusma {width: 69%;height:100%;border-left:1px solid #2fce98;padding:5px;}
+.gecmis-konusmalar > h3 {padding-top:5px;}
+.gecmis-konusmalar > a {font-size:14px;display:block;text-decoration: none;color:#222;padding:10px;border-bottom:1px solid #2fce98;transition:all .5s ease;color:#888;}
+.newMessageButton {background: #2fce98;color:#FFF !important;}
+.newMessageButton > span {transition: all .5s ease;}
+.newMessageButton:hover > span {transform: scale(1.5);}
+.newMessageButton > span {border:1px solid #FFF;border-radius:50%;display: inline-block;width:20px;height:20px;line-height: 20px;text-align: center;}
+.gecmis-konusmalar > a > small {color:#999;}
+.gecmis-konusmalar > a:hover {transform: scale(1.05);background: #2fce98;border-bottom:1px solid #222;}
+.guncel-konusma > .mesajlar {height:80%;border-bottom:1px solid #2fce98;overflow-y: auto !important;background:url(../images/chatbackground.jpg);border-radius:5px;display:none;}
+.guncel-konusma > .mesajlar > .uye-mesaj {text-align: right;padding:5px;}
+.guncel-konusma > .mesajlar > .birim-mesaj {text-align: left;padding:5px;}
+.guncel-konusma > .mesajlar > .uye-mesaj > span {padding:3px 5px;background: #2fce98;color:#FFF;border-radius: 5px;box-shadow: 0px 1px 1px #222;}
+.guncel-konusma > .mesajlar > .birim-mesaj > span {padding:3px 5px;background: #FFF;color:#000;border-radius: 5px;box-shadow: 0px 1px 1px #222;}
+.destek-birim-mesaj {padding-top:5px;display:none;}
+.destek-birim-mesaj > textarea, .destek-birim-mesaj > .input {display:inline-block;vertical-align: middle;outline: none;border-radius:5px;}
+.destek-birim-mesaj > textarea {width:77%;border: 1px solid #ccc;height:19%;}
+.destek-birim-mesaj > .input {text-decoration:none;width:19%;height:19%;background:url(../images/send.png) no-repeat center center;border:0;color:#FFF;cursor:pointer;font-weight: bold;transition: all .5s ease;}
+.destek-birim-mesaj > .input:hover {transform: scale(1.25);}
+.ds-block-imp {display: block !important;}
+.ds-block {display: block;}
+.adres-box {border-radius:10px;border:1px dashed #aaa;width:47%;display: inline-block;margin:1%;padding: 18px 6px 6px 6px;position: relative;}
+.adres-box .adres-buton {padding:3px;display: block;margin:5px auto;}
+.adres-box .yonet {position: absolute;right:6px;top:5px;font-size: 12px;display: block;}
+.adres-box .control-buttons {background: none;outline:0;border:0;cursor:pointer;}
+.adres-box .yonet form {display: inline-block;}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-13 {
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  border: none;
+  z-index: 1;
+}
+.btn-13:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+   background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-13:hover {
+  color: #fff;
+}
+.btn-13:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn-13:active {
+  top: 2px;
+}
+.btn-4 {
+  cursor:not-allowed;
+  background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-4:hover{
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+.btn-4 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-4:before,
+.btn-4:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.9),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  transition: all 0.3s ease;
+}
+.btn-4:before {
+  height: 0%;
+  width: .1px;
+}
+.btn-4:after {
+  width: 0%;
+  height: .1px;
+}
+.btn-4:hover:before {
+  height: 100%;
+}
+.btn-4:hover:after {
+  width: 100%;
+}
+.btn-4 span:before,
+.btn-4 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.9),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  transition: all 0.3s ease;
+}
+.btn-4 span:before {
+  width: .1px;
+  height: 0%;
+}
+.btn-4 span:after {
+  width: 0%;
+  height: .1px;
+}
+.btn-4 span:hover:before {
+  height: 100%;
+}
+.btn-4 span:hover:after {
+  width: 100%;
+}
+/* 5 */
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+/* Set the styles on the input placeholder across browsers */
+::-webkit-input-placeholder {
+  color: grey;
+  opacity: 0.4;
+}
+:-moz-placeholder { 
+  color: grey;
+  opacity: 0.4;
+}
+::-moz-placeholder { 
+  color: grey;
+  opacity: 0.4;
+}
+:-ms-input-placeholder { 
+  color: grey;
+  opacity: 0.4;
+}
+/* End of general pen styles */
+/************
+Lovely Input
+*************/
+/* Add animation to underline */
+.input-wrapper::before,
+.input-wrapper::before:hover,
+.input-wrapper::before:focus,
+.input-wrapper::before:active{
+  -webkit-transition: width 0.2s cubic-bezier(0.4, 0, 1, 1);
+     -moz-transition: width 0.2s cubic-bezier(0.4, 0, 1, 1);
+      -ms-transition: width 0.2s cubic-bezier(0.4, 0, 1, 1);
+       -o-transition: width 0.2s cubic-bezier(0.4, 0, 1, 1);
+          transition: width 0.2s cubic-bezier(0.4, 0, 1, 1);
+  
+}
+/* Add animation to fade out underline when it loses focus */
+.lovely-input,
+.lovely-input:hover,
+.lovely-input:focus,
+.lovely-input:active {
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+.input-wrapper {
+  margin: 0 auto; /* Center element in parent */
+  display: inline-block; /* Required, so we can get width and position later */
+  position: relative; /* We need to use this element's position when positioning the ::before */
+}
+.input-wrapper::before {
+  /* We need to use before as an ::after won't display correctly over the bottom border*/
+  content: '';
+  width: 0px;
+  height: 2px; /* This needs to be the same as the bottom-border width on the actual input */
+  display: block;
+  position: absolute;
+  bottom: 0px; /* Position this before at the bottom of the wrapper element */
+  background-color: rgba(30,220,30,0.5); /* This is the color of the animated underline */
+}
+.input-wrapper:hover::before,
+.input-wrapper:focus::before,
+.input-wrapper:active::before {
+  width: 100%; /* As .input-wrapper is an inline-block we can get it's width from within the pseudo element */
+}
+.lovely-input {
+  /* Remove default input styles */
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: Arial,sans-serif;
+
+  /* Some nice styles for this pen */
+  padding: 0px 5px 2px 5px;
+  font-size: 24px;
+  color: #444;
+  font-weight: bold;
+
+  /* The default underline for the input, the width needs to be the same as the .input-wrapper::before height */
+  border-bottom: 2px solid rgba(10,100,10,0.5);
+
+}
+.lovely-input:focus,
+.lovely-input:active {
+  border-bottom-color: rgba(30,220,30,0.5); /* This color is set when the input comes into focus, it then fades out when focus is lost */
+}
+.siparis-box {width:99%;border:2px solid #CCC;margin:5px auto;padding:10px;}
+.siparis-box .ust {float:left;width: 100%;}
+.siparis-box .ust .detay {float:left;width:69%;}
+.siparis-box .ust .tutar {float:right;font-size:20px;width:29%;}
+.siparis-box .alt {clear:both;width: 100%;border-top: 3px solid #CCC;padding:5px;transition:all 0.5s ease;height:1px;overflow-y:auto;display: block;}
+.siparis-box:hover .alt {transition:all 0.5s ease;height:60vh;}
+.siparis-box .alt div {width:240px;height:150px;background: #EEE;display: inline-block;vertical-align: top;margin: 5px auto;padding:15px;}
+.siparis-box .alt div p {font-size:12px;}
+.altmenulu {position: relative;}
+.altmenulu:hover .altmenu {display: block;}
+.altmenu {position: absolute;display: none;padding:10px;background: #FED;}
+.altmenu font {width:100%;border:1px solid #222;display: block;margin:2px;}
+.hesap-ayarlari-link {display: inline-block;width:28%;font-weight: bold;text-decoration: none;color:#222;border:1px solid #222;vertical-align: top;text-align: center;margin:2% auto;padding:3%;transition: all .5s ease;background: none;}
+.hesap-ayarlari-link img {width: 50%;}
+.hesap-ayarlari-link:hover {background: rgba(10,100,10,0.5);}
+.iade-talep-buton {display:block;margin:-5px auto;margin-bottom:10px;text-decoration:none;background:#DED;color:#222;border:2px solid #DDD;border-radius:0px 0px 15px 15px;padding:5px;}
+.iade-iptal-buton {padding:5px;background:#EDE;border-radius:5px;text-decoration:none;display:block;font-weight:bold;color:#222;}

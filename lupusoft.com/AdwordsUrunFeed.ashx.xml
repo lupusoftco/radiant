@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <item>
+      <g:id>STOK KODU</g:id>
+      <title>ÜRÜN ADI</title>
+      <description>ÜRÜN AÇIKLAMASI</description>
+      <g:google_product_category>ÜRÜN KATEGORİSİ</g:google_product_category>
+      <g:product_type>ÜRÜN TİPİ</g:product_type>
+      <link>http://satinalma.adresi</link>
+      <g:condition>new</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:gtin>BARKOD</g:gtin>
+      <g:mpn>[gtin]</g:mpn>
+      <g:brand>MARKA</g:brand>
+      <g:price>FİYAT TRY</g:price>
+      <g:image_link>http://resim.adresi.jpg</g:image_link>
+      <g:sale_price>FİYAT TRY</g:sale_price>
+    </item>
+</channel>
+</rss>
